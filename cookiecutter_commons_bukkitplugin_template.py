@@ -46,7 +46,7 @@ class CookieCutterCommonsBukkitPlugin(TemplateRenderPlugin):
                                   default=os.path.expanduser("~/Projects"))
 
         cookiecutter(
-            os.path.join(directory, "cookiecutter-commons-bukkitplugin/"),
+            os.path.join(directory),
             output_dir=output_dir,
             no_input=True,
             extra_context={
